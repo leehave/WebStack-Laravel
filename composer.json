@@ -9,6 +9,7 @@
         "caouecs/laravel-lang": "~3.0",
         "encore/laravel-admin": "^1.6",
         "fideloper/proxy": "~3.3",
+        "laravel-admin-ext/grid-lightbox": "^1.0",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0"
     },

@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => 'WebsiteNavigation',
+    'name' => 'WebStack',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>Website</b> Navigation',
+    'logo' => '<b>Web</b> Stack',
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<b>WN</b>',
+    'logo-mini' => '<b>WS</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -75,7 +75,7 @@ return [
     | Html title for all pages.
     |
     */
-    'title' => 'WebsiteNavigation',
+    'title' => 'WebStack',
 
     /*
     |--------------------------------------------------------------------------
@@ -312,6 +312,8 @@ return [
     |
     */
     'extensions' => [
-
+        'grid-lightbox' => [
+            'enable' => true,
+        ]
     ],
 ];
