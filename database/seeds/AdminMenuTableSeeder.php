@@ -101,6 +101,18 @@ class AdminMenuTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => '2019-01-21 09:35:12',
             ),
+            7 => 
+            array (
+                'id' => 8,
+                'parent_id' => 0,
+                'order' => 0,
+                'title' => '分类管理',
+                'icon' => 'fa-bars',
+                'uri' => 'categories',
+                'permission' => NULL,
+                'created_at' => '2019-01-21 12:07:46',
+                'updated_at' => '2019-01-21 12:07:46',
+            ),
         ));
         
         
