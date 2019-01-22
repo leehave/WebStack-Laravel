@@ -25,7 +25,7 @@ class CategoryController extends Controller
             $content->body(Category::tree(function ($tree) {
                 $tree->branch(function ($branch) {
                     $icon = '<i class="fa fa-fw ' . $branch['icon'] . '"></i>';
-                    return "{$branch['id']} - $icon {$branch['title']} ";
+                    return "$icon {$branch['title']} ";
                 });
             }));
         });

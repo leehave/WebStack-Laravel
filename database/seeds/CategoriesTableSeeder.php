@@ -127,6 +127,196 @@ class CategoriesTableSeeder extends Seeder
                 'created_at' => '2019-01-21 13:55:31',
                 'updated_at' => '2019-01-21 13:55:42',
             ),
+            11 => 
+            array (
+                'id' => 12,
+                'parent_id' => 7,
+                'order' => 12,
+                'title' => 'Sketch资源',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:00:51',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            12 => 
+            array (
+                'id' => 13,
+                'parent_id' => 7,
+                'order' => 13,
+                'title' => '字体资源',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:01:02',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            13 => 
+            array (
+                'id' => 14,
+                'parent_id' => 7,
+                'order' => 14,
+                'title' => 'Mockup',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:01:12',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            14 => 
+            array (
+                'id' => 15,
+                'parent_id' => 7,
+                'order' => 15,
+                'title' => '摄影图库',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:01:23',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            15 => 
+            array (
+                'id' => 16,
+                'parent_id' => 7,
+                'order' => 16,
+                'title' => 'PPT资源',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:01:33',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            16 => 
+            array (
+                'id' => 17,
+                'parent_id' => 0,
+                'order' => 17,
+                'title' => '常用工具',
+                'icon' => 'fa-cogs',
+                'created_at' => '2019-01-22 01:02:04',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            17 => 
+            array (
+                'id' => 18,
+                'parent_id' => 17,
+                'order' => 18,
+                'title' => '图形创意',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:02:14',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            18 => 
+            array (
+                'id' => 19,
+                'parent_id' => 17,
+                'order' => 19,
+                'title' => '界面设计',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:02:24',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            19 => 
+            array (
+                'id' => 20,
+                'parent_id' => 17,
+                'order' => 20,
+                'title' => '交互动效',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:02:32',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            20 => 
+            array (
+                'id' => 21,
+                'parent_id' => 17,
+                'order' => 21,
+                'title' => '在线配色',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:02:40',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            21 => 
+            array (
+                'id' => 22,
+                'parent_id' => 17,
+                'order' => 22,
+                'title' => '在线工具',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:02:49',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            22 => 
+            array (
+                'id' => 23,
+                'parent_id' => 17,
+                'order' => 23,
+                'title' => 'Chrome插件',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:02:58',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            23 => 
+            array (
+                'id' => 24,
+                'parent_id' => 0,
+                'order' => 24,
+                'title' => '学习教程',
+                'icon' => 'fa-pencil',
+                'created_at' => '2019-01-22 01:03:17',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            24 => 
+            array (
+                'id' => 25,
+                'parent_id' => 24,
+                'order' => 25,
+                'title' => '设计规范',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:03:29',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            25 => 
+            array (
+                'id' => 26,
+                'parent_id' => 24,
+                'order' => 26,
+                'title' => '视频教程',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:03:36',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            26 => 
+            array (
+                'id' => 27,
+                'parent_id' => 24,
+                'order' => 27,
+                'title' => '设计文章',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:03:44',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            27 => 
+            array (
+                'id' => 28,
+                'parent_id' => 24,
+                'order' => 28,
+                'title' => '设计电台',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:03:52',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            28 => 
+            array (
+                'id' => 29,
+                'parent_id' => 24,
+                'order' => 29,
+                'title' => '交互设计',
+                'icon' => 'fa-star-o',
+                'created_at' => '2019-01-22 01:04:03',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
+            29 => 
+            array (
+                'id' => 30,
+                'parent_id' => 0,
+                'order' => 30,
+                'title' => 'UED团队',
+                'icon' => 'fa-user',
+                'created_at' => '2019-01-22 01:05:39',
+                'updated_at' => '2019-01-22 01:07:04',
+            ),
         ));
         
         
