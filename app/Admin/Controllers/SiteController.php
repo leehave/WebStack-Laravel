@@ -83,10 +83,8 @@ class SiteController extends Controller
         $grid->column('category.title', '分类');
         $grid->title('标题');
         $grid->thumb('图标')->gallery(['width' => 25, 'height' => 25]);
-        $grid->describe('描述');
+        $grid->describe('描述')->limit(40);
         $grid->url('地址');
-        $grid->created_at('创建时间');
-        $grid->updated_at('更新时间');
 
         $grid->disableFilter();
         $grid->disableExport();
@@ -126,10 +124,10 @@ class SiteController extends Controller
         $form = new Form(new Site);
 
         $form->select('category_id', '分类')->options(Category::selectOptions());
-        $form->text('title', '标题');
+        $form->text('title', '标题')->attribute('autocomplete', 'off');
         $form->image('thumb', '图标')->uniqueName();
-        $form->text('describe', '描述');
-        $form->url('url', '地址');
+        $form->text('describe', '描述')->attribute('autocomplete', 'off');
+        $form->url('url', '地址')->attribute('autocomplete', 'off');
 
         $form->footer(function ($footer) {        
             $footer->disableViewCheck();
