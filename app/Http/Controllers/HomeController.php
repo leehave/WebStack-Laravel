@@ -13,4 +13,9 @@ class HomeController extends Controller
             'categories' => Category::with('children', 'sites')->get(),
         ]);
     }
+
+    public function about()
+    {
+        return view('about');
+    }
 }
