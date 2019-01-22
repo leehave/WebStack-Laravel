@@ -22,21 +22,21 @@
         <ul id="main-menu" class="main-menu">
             @foreach ($categories as $categorie)
                 <li>
-                    @if (count($categorie['child']) == 0)
-                        <a href="#{{ $categorie['title'] }}" class="smooth">
-                            <i class="fa fa-fw {{ $categorie['icon'] }}"></i>
-                            <span class="title">{{ $categorie['title'] }}</span>
+                    @if (count($categorie->children) == 0 && $categorie->parent_id == 0)
+                        <a href="#{{ $categorie->title }}" class="smooth">
+                            <i class="fa fa-fw {{ $categorie->icon }}"></i>
+                            <span class="title">{{ $categorie->title }}</span>
                         </a>
-                    @else
+                    @elseif (count($categorie->children) != 0 && $categorie->parent_id == 0)
                         <a>
-                            <i class="fa fa-fw {{ $categorie['icon'] }}"></i>
-                            <span class="title">{{ $categorie['title'] }}</span>
+                            <i class="fa fa-fw {{ $categorie->icon }}"></i>
+                            <span class="title">{{ $categorie->title }}</span>
                         </a>
                         <ul>
-                            @foreach ($categorie['child'] as $child)
+                            @foreach ($categorie->children as $child)
                                 <li>
-                                    <a href="#{{ $child['title'] }}" class="smooth">
-                                        <span class="title">{{ $child['title'] }}</span>
+                                    <a href="#{{ $child->title }}" class="smooth">
+                                        <span class="title">{{ $child->title }}</span>
                                     </a>
                                 </li>
                             @endforeach
