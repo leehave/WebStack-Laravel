@@ -2,7 +2,7 @@
 
 一个开源的网址导航网站项目，具备完整的前后台，您可以拿来制作自己的网址导航。
 
-![首页](public\screen\01.JPG)
+![首页](public/screen/01.JPG)
 
 
 
@@ -59,9 +59,9 @@ php artisan serve
 
 默认密码：admin
 
-![分类](public\screen\02.JPG)
+![分类](public/screen/02.JPG)
 
-![网站](public\screen\03.JPG)
+![网站](public/screen/03.JPG)
 
 
 
