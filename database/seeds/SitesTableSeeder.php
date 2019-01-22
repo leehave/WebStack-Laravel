@@ -1227,7 +1227,271 @@ class SitesTableSeeder extends Seeder
                 'created_at' => '2019-01-22 04:47:08',
                 'updated_at' => '2019-01-22 04:47:08',
             ),
-        ));
+            110 => 
+            array (
+                'id' => 111,
+                'category_id' => 14,
+                'title' => 'MockupZone',
+                'thumb' => 'images/75e599ff2f061dc25fa272de94045ca9.png',
+                'describe' => 'Mockup Zone is an online store where you can find free and premium PSD mockup files to show your designs in a professional way.',
+                'url' => 'https://mockup.zone/',
+                'created_at' => '2019-01-22 05:07:01',
+                'updated_at' => '2019-01-22 05:07:01',
+            ),
+            111 => 
+            array (
+                'id' => 112,
+                'category_id' => 14,
+                'title' => 'Dunnnk',
+                'thumb' => 'images/7949d12743b95779412dd8673c324164.png',
+                'describe' => 'Generate Product Mockups For Free.',
+                'url' => 'http://dunnnk.com/',
+                'created_at' => '2019-01-22 05:08:13',
+                'updated_at' => '2019-01-22 05:08:13',
+            ),
+            112 => 
+            array (
+                'id' => 113,
+                'category_id' => 14,
+                'title' => 'Graphberry',
+                'thumb' => 'images/1216f3642b463e7e9d493e4d00506566.png',
+                'describe' => 'Free design resources, Mockups, PSD web templates, Icons.',
+                'url' => 'http://www.graphberry.com/',
+                'created_at' => '2019-01-22 05:08:51',
+                'updated_at' => '2019-01-22 05:08:51',
+            ),
+            113 => 
+            array (
+                'id' => 114,
+                'category_id' => 14,
+                'title' => 'Threed',
+                'thumb' => 'images/252114418dc086100cd58d10035a9436.png',
+                'describe' => 'Generate 3D Mockups right in your Browser',
+                'url' => 'http://threed.io/',
+                'created_at' => '2019-01-22 05:09:22',
+                'updated_at' => '2019-01-22 05:09:22',
+            ),
+            114 => 
+            array (
+                'id' => 115,
+                'category_id' => 14,
+                'title' => 'Mockup World',
+                'thumb' => 'images/c94ee98e4ada29c0916888820da31744.png',
+                'describe' => 'The best free Mockups from the Web',
+                'url' => 'https://free.lstore.graphics/',
+                'created_at' => '2019-01-22 05:09:54',
+                'updated_at' => '2019-01-22 05:09:54',
+            ),
+            115 => 
+            array (
+                'id' => 116,
+                'category_id' => 14,
+                'title' => 'Lstore',
+                'thumb' => 'images/965f25d08ae3cd33fab21d764a514967.png',
+                'describe' => 'Exclusive mindblowing freebies for designers and developers.',
+                'url' => 'https://free.lstore.graphics/',
+                'created_at' => '2019-01-22 05:11:00',
+                'updated_at' => '2019-01-22 05:11:00',
+            ),
+            116 => 
+            array (
+                'id' => 117,
+                'category_id' => 14,
+                'title' => 'pixeden',
+                'thumb' => 'images/f8b5261bc1d5e5189b9c1216a6de8b3b.png',
+                'describe' => 'free web resources and graphic design templates.',
+                'url' => 'https://www.pixeden.com/',
+                'created_at' => '2019-01-22 05:11:36',
+                'updated_at' => '2019-01-22 05:11:36',
+            ),
+            117 => 
+            array (
+                'id' => 118,
+                'category_id' => 14,
+                'title' => 'For Graphic TM',
+                'thumb' => 'images/20fceec1b9dd6c1183ad73a90becce7f.png',
+                'describe' => 'High Quality PSD Mockups for Graphic Designers.',
+                'url' => 'http://forgraphictm.com/',
+                'created_at' => '2019-01-22 05:12:28',
+                'updated_at' => '2019-01-22 05:12:28',
+            ),
+            118 => 
+            array (
+                'id' => 119,
+                'category_id' => 15,
+                'title' => 'Unsplash',
+                'thumb' => 'images/72880b02dbea40fd84472abc05e6d23b.png',
+                'describe' => 'Beautiful, free photos.',
+                'url' => 'https://unsplash.com/',
+                'created_at' => '2019-01-22 05:16:19',
+                'updated_at' => '2019-01-22 05:16:19',
+            ),
+            119 => 
+            array (
+                'id' => 120,
+                'category_id' => 15,
+                'title' => 'visualhunt',
+                'thumb' => 'images/b2a1a1e4c043858ac2411f02b9236ff3.png',
+                'describe' => '100% Free High Quality Photos.',
+                'url' => 'https://visualhunt.com/',
+                'created_at' => '2019-01-22 05:16:55',
+                'updated_at' => '2019-01-22 05:16:55',
+            ),
+            120 => 
+            array (
+                'id' => 121,
+                'category_id' => 15,
+                'title' => 'librestock',
+                'thumb' => 'images/94c5305f78dfadb241f9edcf3d9b870d.png',
+                'describe' => '65,084 high quality do-what-ever-you-want stock photos.',
+                'url' => 'https://librestock.com/',
+                'created_at' => '2019-01-22 05:17:27',
+                'updated_at' => '2019-01-22 05:17:34',
+            ),
+            121 => 
+            array (
+                'id' => 122,
+                'category_id' => 15,
+                'title' => 'pixabay',
+                'thumb' => 'images/310cb7b52774323c7fdffe67aa0f12aa.png',
+                'describe' => '可在任何地方使用的免费图片和视频。',
+                'url' => 'https://pixabay.com/',
+                'created_at' => '2019-01-22 05:18:10',
+                'updated_at' => '2019-01-22 05:18:10',
+            ),
+            122 => 
+            array (
+                'id' => 123,
+                'category_id' => 15,
+                'title' => 'SplitShire',
+                'thumb' => 'images/0e9933021af7cc4714e900c247010b30.png',
+                'describe' => 'Free Stock Photos and Videos for commercial use.',
+                'url' => 'https://www.splitshire.com/',
+                'created_at' => '2019-01-22 05:19:07',
+                'updated_at' => '2019-01-22 05:19:07',
+            ),
+            123 => 
+            array (
+                'id' => 124,
+                'category_id' => 15,
+                'title' => 'StockSnap',
+                'thumb' => 'images/fabf86558eb3a7c943c124f7f62f3542.png',
+                'describe' => 'Beautiful free stock photos.',
+                'url' => 'https://stocksnap.io/',
+                'created_at' => '2019-01-22 05:19:40',
+                'updated_at' => '2019-01-22 05:19:40',
+            ),
+            124 => 
+            array (
+                'id' => 125,
+                'category_id' => 15,
+                'title' => 'albumarium',
+                'thumb' => 'images/de8b7f26a21ea0b781f93a3163341731.png',
+                'describe' => 'The best place to find & share beautiful images.',
+                'url' => 'http://albumarium.com/',
+                'created_at' => '2019-01-22 05:20:11',
+                'updated_at' => '2019-01-22 05:20:11',
+            ),
+            125 => 
+            array (
+                'id' => 126,
+                'category_id' => 15,
+                'title' => 'myphotopack',
+                'thumb' => 'images/80d85ea59d293bd43731a890f63c5dc9.png',
+                'describe' => 'A free photo pack just for you. Every month.',
+                'url' => 'https://myphotopack.com/',
+                'created_at' => '2019-01-22 05:20:44',
+                'updated_at' => '2019-01-22 05:20:44',
+            ),
+            126 => 
+            array (
+                'id' => 127,
+                'category_id' => 15,
+                'title' => 'Notaselfie',
+                'thumb' => 'images/eb5f9a9661e582883c9d3128bb9b4482.png',
+                'describe' => 'Photos that happen along the way. You can use the images anyway you like. Have fun!',
+                'url' => 'http://notaselfie.com/',
+                'created_at' => '2019-01-22 05:21:31',
+                'updated_at' => '2019-01-22 05:21:31',
+            ),
+            127 => 
+            array (
+                'id' => 128,
+                'category_id' => 15,
+                'title' => 'papers',
+                'thumb' => 'images/3a6396ba24d253502f40432751a11b07.png',
+            'describe' => 'Wallpapers Every Hour!Hand collected :)',
+            'url' => 'http://papers.co/',
+            'created_at' => '2019-01-22 05:22:06',
+            'updated_at' => '2019-01-22 05:22:06',
+        ),
+        128 => 
+        array (
+            'id' => 129,
+            'category_id' => 15,
+            'title' => 'stokpic',
+            'thumb' => 'images/9dce238279b24893eaa20a99fba802ea.png',
+            'describe' => 'Free Stock Photos For Commercial Use.',
+            'url' => 'http://stokpic.com/',
+            'created_at' => '2019-01-22 05:22:55',
+            'updated_at' => '2019-01-22 05:22:55',
+        ),
+        129 => 
+        array (
+            'id' => 130,
+            'category_id' => 15,
+            'title' => '55mm',
+            'thumb' => 'images/dd8adcbc65cc20e8fb6d6335fd57814a.png',
+            'describe' => 'Use our FREE photos to tell your story!',
+            'url' => 'https://55mm.co/visuals',
+            'created_at' => '2019-01-22 05:23:27',
+            'updated_at' => '2019-01-22 05:23:27',
+        ),
+        130 => 
+        array (
+            'id' => 131,
+            'category_id' => 15,
+            'title' => 'thestocks',
+            'thumb' => 'images/2be533b5b00139b9022f09604f3bd136.png',
+            'describe' => 'Use our FREE photos to tell your story!',
+            'url' => 'http://thestocks.im/',
+            'created_at' => '2019-01-22 05:24:11',
+            'updated_at' => '2019-01-22 05:24:11',
+        ),
+        131 => 
+        array (
+            'id' => 132,
+            'category_id' => 15,
+            'title' => 'freenaturestock',
+            'thumb' => 'images/85c87259ac26b4f48b084066b9e3ec8e.png',
+            'describe' => 'Exclusive mindblowing freebies for designers and developers.',
+            'url' => 'http://freenaturestock.com/',
+            'created_at' => '2019-01-22 05:27:20',
+            'updated_at' => '2019-01-22 05:27:20',
+        ),
+        132 => 
+        array (
+            'id' => 133,
+            'category_id' => 15,
+            'title' => 'negativespace',
+            'thumb' => 'images/9b470b26c5e7e6604f3f17d2fe518af7.png',
+            'describe' => 'Beautiful, High-Resolution Free Stock Photos.',
+            'url' => 'https://negativespace.co/',
+            'created_at' => '2019-01-22 05:28:11',
+            'updated_at' => '2019-01-22 05:28:11',
+        ),
+        133 => 
+        array (
+            'id' => 134,
+            'category_id' => 15,
+            'title' => 'gratisography',
+            'thumb' => 'images/37a9bff7f4d756e7b227ef295aa5ff82.png',
+            'describe' => 'Free high-resolution pictures you can use on your personal and commercial projects, free of copyright restrictions.',
+            'url' => 'https://gratisography.com/',
+            'created_at' => '2019-01-22 05:28:53',
+            'updated_at' => '2019-01-22 05:28:53',
+        ),
+    ));
         
         
     }
