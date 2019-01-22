@@ -10,6 +10,11 @@ class Category extends Model
 {
     use ModelTree, AdminBuilder;
 
+    public function sites()
+    {
+        return $this->hasMany(Site::class);
+    }
+
     public static function getWithArray()
     {
         $categories = [];
